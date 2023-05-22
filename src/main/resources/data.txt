@@ -1,0 +1,10 @@
+INSERT INTO roles (id, name) VALUES
+(1, 'ROLE_ADMIN'),
+(2, 'ROLE_USER');
+
+INSERT INTO users (id, email, password, first_Name, last_Name) VALUES
+(1, 'admin@gmail.com', '$2a$10$gVWgxdX5i3HNQY3jEMTWTO70fWVwdE1KfkCtqZ1ShanzT3b1IXz76', 'Ashraf', 'Husain');
+
+insert into user_role(user_id, role_id) values
+(1,1);
+
